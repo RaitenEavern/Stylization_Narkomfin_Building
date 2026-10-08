@@ -2,10 +2,26 @@ br {
     display: none;
 }
 
-.first {
+ol {
+    list-style: decimal;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+img {
     max-width: 100%;
     height: auto;
     margin-bottom: 12px;
+}
+
+.first {
+    
     filter: saturate(1.5)
             contrast(1.5)
             brightness(1)
